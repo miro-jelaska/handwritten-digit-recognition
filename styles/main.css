@@ -1,0 +1,99 @@
+.content{
+    width: 650px;
+    margin: 0 auto;
+}
+.logo{
+    width:450px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.input-canvas-container > *{
+    display: block;
+}
+#input-canvas{
+    border: #323441 2px solid;
+    margin: 0 auto;
+
+}
+
+#feed-image{
+    border: #323441 2px solid;
+    margin: 0 auto;
+}
+.content > *{
+    display: block;
+}
+.controls {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.controls .button{
+    display: inline;
+}
+.feed-image-container > *{
+    display: block;
+}
+.feed-image-wrapper .dimensions{
+    display: block;
+}
+
+.layers-container {
+    overflow: auto;
+    padding-left: 30px;
+}
+.layers-container > *{
+    display: inline;
+    float: left;
+    margin: 5px 10px;
+}
+.layers {
+    display: inline;
+}
+.layers .layer-block {
+    display: block;
+    background: black;
+    min-width: 25px;
+    min-height: 60px;
+}
+
+.output-block{
+    border: #323441 2px solid;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin: 15px auto;
+}
+
+.output-block.has-output{
+    background-color: rgba(219, 181, 36, 0.4);
+}
+
+.title {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.layer-block{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.dimensions{
+    display: block;
+}
+
+.footer{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.label{
+    font-size: 18px;
+    line-height: 45px;
+}
