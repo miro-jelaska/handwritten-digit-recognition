@@ -15,13 +15,19 @@
 #input-canvas{
     border: #323441 2px solid;
     margin: 0 auto;
-
 }
 
 #feed-image{
     border: #323441 2px solid;
     margin: 0 auto;
+    margin-top: 33px;
+    margin-left: 20px;
 }
+
+.feed-image-wrapper .dimensions {
+    margin-left: 15px;
+}
+
 .content > *{
     display: block;
 }
@@ -35,6 +41,9 @@
 }
 .feed-image-container > *{
     display: block;
+}
+.feed-image-wrapper {
+    margin-top: 30px; 
 }
 .feed-image-wrapper .dimensions{
     display: block;
@@ -66,6 +75,7 @@
     text-align: center;
     line-height: 28px;
     margin: 15px auto;
+    margin-top: 43px;
 }
 
 .output-block.has-output{
@@ -96,4 +106,8 @@
 .label{
     font-size: 18px;
     line-height: 45px;
+}
+
+.direction-arrow {
+    margin-top: 75px;
 }

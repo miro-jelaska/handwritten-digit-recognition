@@ -6,8 +6,8 @@
     <title>Handwritten Digit Recognition</title>
     
     <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/btns.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body> 
     <div class="content">
@@ -16,8 +16,8 @@
             <span class="label">Draw any single digit from 0 to 9. Try to center it inside canvas.</span>
             <canvas id="input-canvas"></canvas>
             <div class="controls">
-                <a href="#" class="btn btn--s btn--gray" id="recognise-button">◉ Recognise</a>
-                <a href="#" class="btn btn--s btn--gray" id="clear-button">◌ Clear</a>
+                <a href="#" class="btn btn--s btn--gray-dark" id="recognise-button">◉ Recognise</a>
+                <a href="#" class="btn btn--s btn--gray-dark" id="clear-button">◌ Clear</a>
             </div>
         </div>
         
@@ -29,7 +29,7 @@
                     <canvas id="feed-image"></canvas>
                     <span class="dimensions">28×28</span>
                 </div>
-                <span>➟</span>
+                <span class="direction-arrow">➟</span>
                 <div class="layer">
                     <span class="title">Input layer </span>                    
                     <svg width="30" height="100" class="layer-block">
@@ -37,23 +37,23 @@
                     </svg>
                     <span class="dimensions">784 neurons</span>                    
                 </div>
-                <span>➟</span>
+                <span class="direction-arrow">➟</span>
                 <div class="layer">
                     <span class="title">Hidden layer</span>                    
                     <svg width="30" height="100" class="layer-block">
-                        <rect  width="30" height="75" style="fill:rgba(0,0,0, 0.7)" />
+                        <rect y="15" width="30" height="70" style="fill:rgba(0,0,0, 0.7)" />
                     </svg>
                     <span class="dimensions">100 neurons</span>                    
                 </div>
-                <span>➟</span>
+                <span class="direction-arrow">➟</span>
                 <div class="layer">
                     <span class="title">Output layer</span>       
                     <svg width="30" height="100" class="layer-block">             
-                        <rect width="30" height="30" style="fill:rgba(0,0,0, 0.7)" />
+                        <rect y="35" width="30" height="30" style="fill:rgba(0,0,0, 0.7)" />
                     </svg>
                     <span class="dimensions">10 neurons</span>                    
                 </div>
-                <span>➟</span>
+                <span class="direction-arrow">➟</span>
                 <div class="output">
                     <span class="title">Output</span>                    
                     <div class="output-block" id="output-block"></div>
