@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition
 Simple handwritten digit recognition. I created this project after reading ["Make Your Own Neural Network" by Tariq Rashid](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608). Training and testing done in Python, recognition web done in JavaScript.
 
-<img src="readme-resources/youtube-screenshot.png" alt="Screenshot" /> 
+[![Simple handwritten digit recognition using Artificial Neural Networks](readme-resources/youtube-screenshot.png)](https://youtu.be/Lm2lF6YChzs "Simple handwritten digit recognition using Artificial Neural Networks")
 
 Training and testing data originate from http://makeyourownneuralnetwork.blogspot.hr/2015/03/the-mnist-dataset-of-handwitten-digits.html which is actually MNIST Dataset with 60000 training and 10000 testing examples.
 
